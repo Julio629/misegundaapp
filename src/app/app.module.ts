@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { EjerciciosComponent } from './ejercicios/ejercicios.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    EjerciciosComponent,
 
   ],
   imports: [
